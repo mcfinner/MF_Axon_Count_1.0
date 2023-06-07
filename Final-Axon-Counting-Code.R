@@ -31,7 +31,7 @@ nmask_moments <- data.frame(computeFeatures.moment(nmask))
 nmask_feature_moment <- data.frame(nmask_features$s.area, nmask_moments$m.eccentricity)
 
 #Remove objects that do not meet selection criteria for large enough axon-like objects and replot mask with only counted objects.
-sel  <- which(nmask_feature_moment[, "nmask_features.s.area"] < 250)
+sel  <- which(nmask_feature_moment[, "nmask_features.s.area"] < 100)
 
 xe <- rmObjects(nmask, sel)
 plot(xe)
