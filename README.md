@@ -60,7 +60,7 @@ head(nmask_feature_moment)
 ## 3.3. Remove objects that are not "axon-like" and plot
 ```{r, warning=F, message=F}
 #Remove objects that do not meet selection criteria for large enough "axon-like" objects and replot mask with only counted objects.
-sel  <- which(nmask_feature_moment[, "nmask_features.s.area"] < 250)
+sel  <- which(nmask_feature_moment[, "nmask_features.s.area"] < 100)
 xe <- rmObjects(nmask, sel)
 plot(xe)
 ```
