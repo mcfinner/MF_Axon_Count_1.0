@@ -7,7 +7,7 @@ The following code was designed to automate the counting of regenerating axons i
 
 # 0. Pre-Processing Images Before R
 ```{r, warning=F, message=F}
-#Retinal Ganglion Cell axons were labeled with cholera-toxin-beta (CTB) and imaged with a Zeiss microscope. Images were processed with Zeiss ZEN 3.5 (blue edition) software as full-sized Tiffs. Images were imported into FIJI processing software Version 2.1.0, cropped from injury site (0 mm) to 2 mm distal to the injury site. Images were exported as jpgs and uploaded back into FIJI. Images were made to 8-bit, smoothed with the smooth function, and saved as a Tiff. The Tiffs were saved into the working directory for the semi-automated optic nerve axon counting code to be executed. 
+#Retinal Ganglion Cell axons were labeled with cholera-toxin-beta (CTB) and imaged with a Zeiss microscope. Images were processed with Zeiss ZEN 3.5 (blue edition) software as full-sized Tiffs. Images were imported into FIJI processing software Version 2.1.0, cropped from injury site (0 mm) to 2 mm distal to the injury site. Images were exported as jpgs and uploaded back into FIJI. Images were made to 8-bit, and saved as a Tiff. The Tiffs were saved into the working directory for the automated optic nerve axon counting code to be executed. 
 ```
 
 # 1. Packages for Running the Code
