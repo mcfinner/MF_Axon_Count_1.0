@@ -70,7 +70,7 @@ for (file in files) {
   width <- dim(nmask)[1]
   height <- dim(nmask)[2]
   
-  #Create first of four intervals to count axon-like objects (at width/4 - ((width/4)/12)).
+  #Create first of four intervals to count axon-like objects (at width/4 +/- ((width/4)/12)).
   #Count number of axon-like objects in mask at first of four intervals, named "zero_obj."
   #Create colored mask to identify individual objects in the area of interest.
   x_2 <- width/4
@@ -89,7 +89,7 @@ for (file in files) {
   #dev.off()
   #plot(zero_img_color)
   
-  #Create second of four intervals to count axon-like objects (at width/2 - ((width/2)/12)).
+  #Create second of four intervals to count axon-like objects (at width/2 +/- ((width/2)/12)).
   #Count number of axon-like objects in mask at second of four intervals, named "second_obj."
   #Create colored mask to identify individual objects in the area of interest.
   y_2 <- width/2
@@ -108,7 +108,7 @@ for (file in files) {
   #dev.off()
   #plot(Second_img_color)
   
-  #Create third of four intervals to count axon-like objects (at (3*width/4) - ((3*width/4)/12)).
+  #Create third of four intervals to count axon-like objects (at (3*width/4) +/- ((3*width/4)/12)).
   #Count number of axon-like objects in mask at third of four intervals, named "third_obj."
   #Create colored mask to identify individual objects in the area of interest.
   z_2 <- (3*width/4)
