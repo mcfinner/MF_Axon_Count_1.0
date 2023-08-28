@@ -95,7 +95,7 @@ height <- dim(nmask)[2]
 ```
 
 ## 4.2. Count the Number of Axons in the First Interval
-Create first of four intervals to count axon-like objects (at width/4 - ((width/4)/12)).
+Create first of four intervals to count axon-like objects (at width/4 +/- ((width/4)/12)).
 Count number of axon-like objects in mask at first of four intervals, named "zero_obj."
 Create colored mask to identify individual objects in the area of interest.
 ```{r, warning=F, message=F}
@@ -116,7 +116,7 @@ plot(zero_img_color)
 <img width="539" alt="Screen Shot 2023-08-25 at 10 13 23 AM" src="https://github.com/mcfinner/MF_Axon_Count_1.0/assets/111366964/02fd0a33-a8e5-4a57-b398-2d682be86f22">
 
 ## 4.3. Count the Number of Axons in the Second Interval
-Create second of four intervals to count axon-like objects (at width/2 - ((width/2)/12)).
+Create second of four intervals to count axon-like objects (at width/2 +/- ((width/2)/12)).
 Count number of axon-like objects in mask at second of four intervals, named "second_obj."
 Create colored mask to identify individual objects in the area of interest.
 ```{r, warning=F, message=F}
@@ -136,7 +136,7 @@ plot(Second_img_color)
 <img width="539" alt="Screen Shot 2023-08-25 at 10 13 53 AM" src="https://github.com/mcfinner/MF_Axon_Count_1.0/assets/111366964/f41d1acf-dd43-4479-815e-7c8c12104c0b">
 
 ## 4.4. Count the Number of Axons in the Third Interval
-Create third of four intervals to count axon-like objects (at (3*width/4) - ((3*width/4)/12)).
+Create third of four intervals to count axon-like objects (at (3*width/4) +/- ((3*width/4)/12)).
 Count number of axon-like objects in mask at third of four intervals, named "third_obj."
 Create colored mask to identify individual objects in the area of interest.
 ```{r, warning=F, message=F}
