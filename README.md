@@ -3,6 +3,8 @@ title: "MF_Axon_Count_1.0"
 subtitle: "Automated Axon Counting Code"
 author: "Matthew Finneran"
 ---
+[![DOI](https://zenodo.org/badge/650366511.svg)](https://zenodo.org/doi/10.5281/zenodo.10650619)
+
 The following code was designed to automate the counting of CTB+ regenerating axons in the optic nerve following crush injury.
 
 # 0. Pre-Processing Images Before R
